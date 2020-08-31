@@ -4,14 +4,19 @@
 -- Drew Scott
 
 ### Function
+Tic-Tac_Toe
+ - Create a two (2) person, turn based Tic-Tac-Toe program. Building off of your starter code provided from the class repo, complete the Tic Tac Toe logic.
 
+A Game board, to a user, looks like this:
 
-A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
+|1||2||3|
+|4||5||6|
+|7||8||9|
 
-Your job is to
+A winning board may look like this (O Wins!):
 
-tell them what it is (with context)
-show them what it looks like in action
-show them how they use it
-tell them any other relevant details
-This is your job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find th
+|X||X||O|
+|4||O||X|
+|O||X||9|
+
+A two player game 
