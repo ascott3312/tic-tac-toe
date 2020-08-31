@@ -6,13 +6,23 @@ namespace Lab04_TicTacToe
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int[,] matrix = new int[3, 3];
+
+            for (int i = 0; i < matrix.GetLength(0); i++)
+                for (int j = 0; j < matrix.GetLength(1); j++)
+                    matrix[i, j] = i * 3 + j;
         }
 
         static void StartGame()
         {
-            // TODO: Setup your game. Create a new method that creates your players and instantiates the game class. Call that method in your Main method.
-            // You are requesting a Winner to be returned, Determine who the winner is output the celebratory message to the correct player. If it's a draw, tell them that there is no winner. 
+            int[,] matrix = new int[,]
+            {
+              {0, 1, 2 },
+              {3, 4, 5 },
+              {6, 7, 8 }
+            };
 
         }
-
+    }
+}
+    
